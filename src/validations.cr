@@ -152,7 +152,7 @@ module Validations
   #   @age : Int32
   #   @parental_consent : Bool
   #
-  #   # Only validate `@parental_consent` if `@age` is less than or equal to 14
+  #   # Only validate `@parental_consent` if `@age` is less than or equal to 13
   #   validate @parental_consent, is: true, if: @age <= 13
   # end
   # ```
