@@ -74,7 +74,7 @@ struct User
   validate @nilable, size: (5..10)
 
   # Will only be validated if `@age <= 13`
-  validate parental_consent, is: true, if: @age <= 13
+  validate @parental_consent, is: true, if: @age <= 13
 
   # Custom validations are allowed
   def validate
